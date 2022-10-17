@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vidraçaria Loureiro</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+
+
+
+<body>
+
+  <header>
+    <nav class="navbar col-12 navbar-expand-lg bg-primary px-5 position-fixed" style="z-index: 1000;">
+      <div class="container-fluid">
+        <div>
+          <a class="navbar-brand fs-5 text-light" href="#">Vidraçaria Loureiro </a>
+
+        </div>
+
+        <button class="navbar-toggler navbar-dark " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="nav navbar-collapse collapse justify-content-end fs-6 " id="navbarNav">
+          <ul class=" navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-light" aria-current="page" href="#" id="home" onclick="hiddenMenu()">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#servicos" onclick="hiddenMenu()">Serviços</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#projetos" onclick="hiddenMenu()">Sobre</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#contato" onclick="hiddenMenu()">Contato</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+
+  </header>
+
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner" style="height: 40em; ">
+      <div class="carousel-item active h-100"
+        style="background-image: url(./assets/images/img-1.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">
+
+        <div class="carousel-caption  d-md-block" style=" color: black; font-weight: 700;">
+          <h1>Seja Bem Vindo!</h1>
+          <p class="fs-4 mb-5">Some representative placeholder content for the first slide.</p>
+          <a href="https://web.whatsapp.com/send?phone=5599111112222" target="_blank" class="btn btn-primary mb-4">Faça seu orçamento</a>
+        </div>
+      </div>
+
+      <div class="carousel-item  h-100"
+        style="background-image: url(./assets/images/img-2.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">
+
+        <div class="carousel-caption  d-md-block" style=" color: black;  font-weight: 700;">
+          <h1>Seja Bem Vindo!</h1>
+          <p class="fs-4 mb-5">Some representative placeholder content for the first slide.</p>
+          <a href="https://web.whatsapp.com/send?phone=5599111112222" target="_blank" class="btn btn-primary mb-4">Faça seu orçamento</a>
+        </div>
+      </div>
+
+      <div class="carousel-item  h-100"
+        style="background-image: url(./assets/images/img-3.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">
+
+        <div class="carousel-caption  d-md-block" style=" color: black; font-weight: 700;">
+          <h1>Seja Bem Vindo!</h1>
+          <p class="fs-4 mb-5">Some representative placeholder content for the first slide.</p>
+          <a href="https://web.whatsapp.com/send?phone=5599111112222" target="_blank" class="btn btn-primary mb-4">Faça seu orçamento</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div>
+
+
+  <!--Nossos serviços-->
+
+
+
+  <div class="container my-5" id="servicos">
+
+    <h2 class="text-center text-decoration-underline mb-5">Nossos Serviços</h2>
+    <div class=" cards d-md-flex ">
+
+      <div class="card mb-5 m-auto" style="width: 18rem;">
+        <img src="./assets/images/img-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Box</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+            <a href="#" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#projetosModal">Veja
+              mais</a>
+        </div>
+      </div>
+
+      <div class="card mb-5 m-auto" style="width: 18rem;">
+        <img src="./assets/images/img-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Varandas e Escadas</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+            <a href="#" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#projetosModal">Veja
+              mais</a>
+        </div>
+      </div>
+
+      <div class="card mb-5 m-auto" style="width: 18rem;">
+        <img src="./assets/images/img-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Portas e Janelas</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#projetosModal">Veja
+            mais</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <div class=" container my-5 text-center h-100 align-items-center justify-content-center py-5" id="projetos">
+
+    <h2 class="text-decoration-underline mt-5">Sobre Nós</h2>
+    <h6>Vidraçaria moderna, portas, janelas, escadas, varandas e box.</h6>
+
+
+    <p>Comprometimento com a qualidade do serviço, apresentando soluções personalizadas para cada cliente, com garantia
+      do serviço.</p>
+    <p>Qualidade e preço bom, venha fazer seu orçamento sem compromisso.</p>
+
+    <!-- Modal -->
+    <div class="modal fade" id="projetosModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog col-10">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Projetos</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./assets/images/img-1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/img-2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/img-3.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+  </div>
+
+
+
+  <!--Footer-->
+
+  <footer class="bg-dark text-light pt-5 pb-3 px-4">
+    <h2 class="text-center my-3 text-decoration-underline" id="contato">Contato</h2>
+
+
+    <div class="d-block  m-auto">
+
+      <div class="social-medias text-center mb-4 mx-auto">
+        <a class="d-block fs-4 text-light text-decoration-none text-light" href="https://web.whatsapp.com/send?phone=5599111112222" target="_blank"><i class="fa fa-whatsapp "><span
+              class="mx-3">(27) 99999-9999</span></i></a>
+
+
+        <a href="#"><i class="fa fa-instagram fs-4 text-light"><span class="mx-3">Instagram</span></i></a>
+      </div>
+
+      <div class=" col-10 m-auto">
+        <div class="col-12 m-auto" style="height: 20em; ">
+          <iframe width=100% height=100% frameborder=1px style="border-radius: 10px;"
+            src="http://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=ilpea+do+brasil&amp;sll=-14.093957,-50.449219&amp;sspn=67.156049,158.027344&amp;ie=UTF8&amp;ll=-26.320537,-48.839979&amp;spn=0.009617,0.012875&amp;z=15&amp;output=embed"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-5" id="autor">
+      <p> &copy Deenvolvido por Raylander Guimarães, 2022.</p>
+    </div>
+  </footer>
+
+
+
+
+  <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
